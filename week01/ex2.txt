@@ -1,0 +1,268 @@
+    1  python3 --version
+    2  sudo apt update
+    3  python3 --version
+    4  sudo apt upgrade
+    5  python3 --versi
+    6  python3 --version
+    7  sudo apt install git
+    8  git --config user.name "slauva"
+    9  git config user.name "slauva"
+   10  git
+   11  python3
+   12  sudo apt install p7zip-full p7zip-rar
+   13  sudo apt install -y python3-pip glew-utils qt5-default
+   14  usdcat USD36/share/usd/tutorials/convertingLayerFormats/Sphere.usd
+   15  sudo usdcat USD36/share/usd/tutorials/convertingLayerFormats/Sphere.usd
+   16  export 
+   17  export PATH=/USD36/bin:$PATH
+   18  export PYTHONPATH=/USD36/lib/python:$PYTHONPATH
+   19  usdcat USD36/share/usd/tutorials/convertingLayerFormats/Sphere.usd
+   20  sudo usdcat USD36/share/usd/tutorials/convertingLayerFormats/Sphere.usd
+   21  usdview USD36/share/usd/tutorials/traversingStage/HelloWorld.usda
+   22  sudo usdview USD36/share/usd/tutorials/traversingStage/HelloWorld.usda
+   23  $PATH
+   24  $PYHTONPATH
+   25  $PYTHONPATH
+   26  export PATH=/usr/local/USD36/bin:$PATH
+   27  export PYTHONPATH=/usr/local/USD36/lib/python:$PYTHONPATH
+   28  usdview USD36/share/usd/tutorials/traversingStage/HelloWorld.usda
+   29  sudo usdview USD36/share/usd/tutorials/traversingStage/HelloWorld.usda
+   30  sudo usdcat /USD36/share/usd/tutorials/convertingLayerFormats/Sphere.usd
+   31  sudo usdcat usr/local/USD36/share/usd/tutorials/convertingLayerFormats/Sphere.usd
+   32  usdcat usr/local/USD36/share/usd/tutorials/convertingLayerFormats/Sphere.usd
+   33  export USDPATH=/usr/local/USD
+   34  export PATH=$USDPATH/bin:$PATH
+   35  export PYTHONPATH=$USDPATH/lib/python:$PYTHONPATH
+   36  usdview USD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
+   37  sudo apt install curl
+   38  curl -sSL http://get.gazebosim.org | sh
+   39  sudo apt install ubuntu-restricted-extras libavcodec-extra libdvd-pkg
+   40  sudo apt install adobe-flashplugin
+   41  gazubo
+   42  gazebo
+   43  sudo apt install synaptic gdebi
+   44  sudo apt install build-essential
+   45  whereis gcc make
+   46  gcc -v
+   47  sudo apt update
+   48  pip
+   49  pip3
+   50  sudo apt install python-pip
+   51  pip list
+   52  python --version
+   53  sudo apt install python-pip3
+   54  pip3 list
+   55  sudo apt install python3-pip
+   56  sudo pip3 install PySide2 PyUpenGl
+   57  sudo pip3 install PyOpenGl
+   58  pip3 list
+   59  sudo pip3 install numpy
+   60  git clone https://github.com/PixarAnimationStudios/USD
+   61  sudo python3 USD/build_scripts/build_usd.py /usr/local/USD
+   62  cmake
+   63  sudo apt install cmake
+   64  sudo python3 USD/build_scripts/build_usd.py /usr/local/USD
+   65  wget https://github.com/Kitware/CMake/releases/download/v3.15.2/cmake-3.15.2.tar.gz
+   66  cd cmake-3.15.2
+   67  tar -zxvf cmake-3.15.2.tar.gz
+   68  cd cmake-3.15.2
+   69  ./bootstrap
+   70  make
+   71  sudo make install
+   72  cmake --version
+   73  cd ..
+   74  cmake --version
+   75  gazebo
+   76  sudo -E add-apt-repository -y ppa:george-edison55/cmake-3.x
+   77  sudo -E apt-get update
+   78  sudo apt-get install cmake
+   79  cd cmake-3.20.3
+   80  ./configure
+   81  make
+   82  sudo make install
+   83  cmake --version
+   84  export CMAKE_ROOT=/usr/local/share/cmake-3.20
+   85  cmake --version
+   86  sudo apt-get install cmake
+   87  export CMAKE_ROOT=/usr/share/cmake-3.20
+   88  cmake --version
+   89  sudo apt-get remove cmake cmake-data
+   90  sudo apt-get install cmake3 cmake3-data
+   91  cmake --version
+   92  sudo apt-get install cmake3 cmake3-data
+   93  sudo -E add-apt-repository -y ppa:george-edison55/cmake-3.20
+   94  sudo -E add-apt-repository -y ppa:george-edison55/cmake-3.x
+   95  sudo -E apt-get update
+   96  sudo apt-get install cmake
+   97  cmake --version
+   98  export CMAKE_ROOT=/cmake-3.20.3
+   99  cmake --version
+  100  export CMAKE_ROOT=cmake-3.20.3
+  101  cmake --version
+  102  export CMAKE_ROOT=/home/slavakoshman/cmake-3.20.3
+  103  cmake --version
+  104  sudo pip3 install cmake
+  105  cmake --version
+  106  cd ..
+  107  cmake --version
+  108  export CMAKE_ROOT=/home/slavakoshman/cmake-3.20.3/[A
+  109  printenv
+  110  cmake --version
+  111  gazebo
+  112  sudo apt update
+  113  sudo apt install cmake
+  114  sudo apt upgrade
+  115  cmake --version
+  116  sudo apt purge cmake
+  117  wget https://github.com/Kitware/CMake/releases/download/v3.13.4/cmake-3.13.4.tar.gz
+  118  tar -zxvf cmake-3.13.4.tar.gz
+  119  cd cmake-3.13.4
+  120  ./bootstrap
+  121  make
+  122  sudo make install
+  123  sudo apt install cmake-qt-gui
+  124  cmake --version
+  125  sudo apt remove --purge cmake
+  126  hash -r
+  127  cd ..
+  128  sudo snap install cmake --classic
+  129  cmake --version'
+  130  cmake --version
+  131  sudo > python USD/build_scripts/build_usd.py /usr/local/USD
+  132  sudo python3 USD/build_scripts/build_usd.py /usr/local/USD
+  133  sudo pip3 install PySide2
+  134  sudo python3 USD/build_scripts/build_usd.py /usr/local/USD
+  135  usdview USD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
+  136  sudo usdview USD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
+  137  ls -la /usr/local
+  138  python USD/build_scripts/build_usd.py /usr/local/USD
+  139  sudo pip install PySide PyOpenGl
+  140  sudo pip install PySide PyOpenGL
+  141  python
+  142  pip list
+  143  sudo pip list
+  144  pip install PySide PyOpenGL
+  145  pip install PySide2 PyOpenGL
+  146  sudo pip install PySide2 PyOpenGL
+  147  sudo python USD/build_scripts/build_usd.py /usr/local/USD
+  148  sudo python USD/build_scripts/build_usd.py /usr/local/USD2
+  149  usdview USD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
+  150  sudo usdview USD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
+  151  usdview USD36/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
+  152  usdview usr/local/USD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
+  153  sudo usdview usr/local/USD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
+  154  usdview usr/local/USD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
+  155  pip3 instal lxml
+  156  pip3 install lxml
+  157  /usr/bin/python3 /home/slavakoshman/.vscode/extensions/ms-python.python-2021.5.842923320/pythonFiles/pyvsc-run-isolated.py pip install -U autopep8 --user
+  158  python3 usd.py
+  159  python3 usd/usd.py
+  160  python3 usd/usd.py --inti asd
+  161  python3 usd/usd.py --init /usr/local/USD
+  162  python3 usd/usd.py --show USD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
+  163  python3 usd/usd.py --view USD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
+  164  python3 usd/usd.py --show USD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
+  165  python3 usd/usd.py --view USD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
+  166  sudo python3 usd/usd.py --view USD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
+  167  cd ~
+  168  python3 usd/usd.py --init /usr/local/USD
+  169  cd /github/robot_shop
+  170  cd github
+  171  cd robot_shop
+  172  python3 usd/usd.py --init /usr/local/USD
+  173  sudo python3 usd/usd.py --view USD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
+  174  python3 usd/usd.py --view USD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
+  175  python3 usd/usd.py 
+  176  w cd /home/slavakoshman/github/robot_shop ; /usr/bin/env /usr/bin/python3 /home/slavakoshman/.vscode/extensions/ms-python.python-2021.5.842923320/pythonFiles/lib/python/debugpy/launcher 41195 -- /home/slavakoshman/github/robot_shop/usd/usd.py 
+  177  export USDPATH=/usr/local/USD
+  178  export PATH=$USDPATH/bin:$PATH
+  179  export PYTHONPATH=$USDPATH/lib/python:$PYTHONPATH
+  180  usdview USD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
+  181  usdview github/robot_shop/usd/HumanFemale/HumanFemale.usd
+  182  usdview github/robot_shop/usd/HumanFemale/HumanFemale.keepAlive.usd
+  183  export MESA_GL_VERSION_OVERRIDE=3.3
+  184  usdview github/robot_shop/usd/HumanFemale/HumanFemale.keepAlive.usd
+  185  sudo pip install PyOpenGL PyOpenGL_accelerate
+  186  usdview github/robot_shop/usd/HumanFemale/HumanFemale.keepAlive.usd
+  187  usdview github/robot_shop/usd/HelloWorld/sphere.usda
+  188  export USDPATH=/usr/local/USD
+  189  export PATH=$USDPATH/bin:$PATH
+  190  export PYTHONPATH=$USDPATH/lib/python:$PYTHONPATH
+  191  usdview
+  192  usdview github/robot_shop/usd/HumanFemale/HumanFemale.usd
+  193  usdview Public/Kitchen_set/Kitchen_set.usd
+  194  python3.7
+  195  python3 usd/usd.py --init
+  196  pip3 install user_agent lxml bs4 requests aiohttp
+  197  /usr/bin/python3.7 /home/slavakoshman/.vscode/extensions/ms-python.python-2021.5.842923320/pythonFiles/pyvsc-run-isolated.py pip install -U autopep8 --user
+  198  python3.7 pip install user_agent lxml bs4 requests aiohttp
+  199  /usr/bin/python3.7 /home/slavakoshman/.vscode/e pip install user_agent lxml bs4 requests aiohttp
+  200  python3.7 pip3 install user_agent lxml bs4 requests aiohttp
+  201  pip.73 install user_agent lxml bs4 requests aiohttp
+  202  pip3.7 install user_agent lxml bs4 requests aiohttp
+  203  sudo apt update
+  204  sudo apt install software-properties-common
+  205  sudo add-apt-repository ppa:deadsnakes/ppa
+  206  sudo apt install python3.7
+  207  python3.7 --version
+  208  pip list
+  209  pip install psycopg2
+  210  python --version
+  211  pip install psycopg2 requests
+  212  pip list'
+  213  pip list
+  214  python3 scraper/scraper.py 
+  215  pip3 list
+  216  sudo apt-get install libpq-dev pip3 install psycopg2
+  217  sudo pip3 install psycopg2 requests
+  218  python3 db_test.py
+  219  python3
+  220  /usr/bin/python3
+  221  python3
+  222  /usr/bin/python3
+  223  python3 -m hudago.py
+  224  python3 -m kudago.py
+  225  python3 kudago.py
+  226  python3
+  227  sudo apt update
+  228  sudo apt install openvpn
+  229  sudo openvpn --config dvizz_mike.ovpn
+  230  sudo openvpn --config github/hack_culture/dvizz_danil.ovpn 
+  231  cd ~/week1
+  232  touch ex1.txt
+  233  less ex1.txt 
+  234  touch ex1_1.txt
+  235  sort -n -r ex1.txt > ex1_1.txt 
+  236  less ex1_1.txt
+  237  gedit ex1_1.txt 
+  238  clear
+  239  ls /usr/bin > b.txt | grep gcc b.txt | sort -n -r b.txt > a.txt
+  240  touch b.txt
+  241  touch a.txt
+  242  ls /usr/bin > b.txt | grep gcc b.txt | sort -n -r b.txt > a.txt
+  243  less a.txt
+  244  gedit a.txt
+  245  ls /usr/lib > b.txt | grep gcc b.txt | sort -n -r b.txt > a.txt
+  246  gedit a.txt~
+  247  gedit a.txt
+  248  history > ex2.txt
+  249  gedit ex2.txt
+  250  gedit ex3.sh
+  251  sh ex3.sh 
+  252  gedit ex3.sh
+  253  sh ex3.sh 
+  254  gedit main.c
+  255  gcc main.c -o ex4
+  256  gedit main.c
+  257  gcc main.c -o ex4
+  258  gedit main.c
+  259  gcc main.c -o ex4
+  260  ./ex4
+  261  gcc main.c -o ex4
+  262  ./ex4
+  263  clear
+  264  ls /usr/bin | grep gcc | sort -r > ex1-1.txt
+  265  gedit ex1-1.txt
+  266  gedit ex1.txt
+  267  ls /usr/bin | grep gcc | sort -r > ex1.txt
+  268  history > ex2.txt
