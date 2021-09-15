@@ -1,13 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <sys/types.h>
 #include <unistd.h>
 
 int main() {
-    int n = 10;
+    int pid_f = fork();
+    int pid = getpid();
 
-    for (int i = 0; i < n; i++) {
-        }
+    if (pid_f == 0) {
+        printf("Hello from child [%d - %d]\n", pid_f, pid);
+    } else {
+        printf("Hello from parent [%d - %d]\n", pid_f, pid);
+    }
 
     return 0;
 }
