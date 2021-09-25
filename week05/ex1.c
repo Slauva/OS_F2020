@@ -17,9 +17,7 @@ void main()
     for (int i = 0; i < n; i++)
     {
         printf("Created #%d thread\n", i);
-        status = pthread_create(&threads[i], NULL, message_handler, (void *)i);
-
-        if (status != 0)
+        if ((status = pthread_create(&threads[i], NULL, message_handler, (void *)i)) != 0)
         {
             printf("Error {status: %d}", status);
             exit(-1);

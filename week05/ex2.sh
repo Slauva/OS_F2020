@@ -1,6 +1,7 @@
+#!/bin/bash
 file="./text.txt"
 
-while true
+while :
 do
 	if ln "$file" "$file.lock" > "/dev/null" 2>&1
 	then
@@ -8,7 +9,7 @@ do
 		new=$((prev+1))
 
 		echo "$new" >> "$file"
-		echo "put $new"
+		echo "$new"
 
 		rm "$file.lock"
 	fi
