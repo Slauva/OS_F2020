@@ -44,16 +44,15 @@ void FCFS(struct Process *processes, int nProcess)
     float aveTAT, aveWT, CT, totalTAT = 0, totalWT = 0;
 
     int *WT = (int *)malloc(nProcess * sizeof(int));
-    WT[0] = 0;
-    for (int i = 1; i < nProcess; i++)
-        WT[i] = WT[i - 1] + processes[i - 1].burst_time;
-
     int *TAT = (int *)malloc(nProcess * sizeof(int));
-    for (int i = 0; i < nProcess; i++)
-        TAT[i] = WT[i] + processes[i].burst_time;
+    int *temp = (int *)malloc((nProcess + 1) * sizeof(int));
 
+    temp[0] = 0;
     for (int i = 0; i < nProcess; i++)
     {
+        temp[i + 1] = temp[i] + processes[i].burst_time;
+        WT[i] = temp[i] - processes[i].arrival_time;
+        TAT[i] = WT[i] + processes[i].burst_time;
         totalWT += WT[i];
         totalTAT += TAT[i];
     }
