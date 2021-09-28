@@ -8,7 +8,8 @@ struct Process
     int burst_time;
 };
 
-void FCFS(struct Process *processes, int nProcess);
+int comp(const void *elem1, const void *elem2);
+void SJF(struct Process *processes, int nProcess);
 
 int main()
 {
@@ -29,19 +30,32 @@ int main()
         processes[i].id = i + 1;
     }
 
+    SJF(processes, nProcess);
+
     // for (int i = 0; i < nProcess; i++)
     // {
     //     printf("Process #%d: Arrival Time %d Burst Time %d\n", processes[i].id, processes[i].arrival_time, processes[i].burst_time);
     // }
 
-    FCFS(processes, nProcess);
-
     return 0;
 }
 
-void FCFS(struct Process *processes, int nProcess)
+int comp(const void *elem1, const void *elem2)
+{
+    struct Process f = *((struct Process *)elem1);
+    struct Process s = *((struct Process *)elem2);
+    if (f.burst_time > s.burst_time)
+        return 1;
+    if (f.burst_time < s.burst_time)
+        return -1;
+    return 0;
+}
+
+void SJF(struct Process *processes, int nProcess)
 {
     float aveTAT, aveWT, CT, totalTAT = 0, totalWT = 0;
+
+    qsort(processes, nProcess, sizeof(struct Process), comp);
 
     int *WT = (int *)malloc(nProcess * sizeof(int));
     WT[0] = 0;
