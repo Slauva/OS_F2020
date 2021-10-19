@@ -1,0 +1,8 @@
+We have a machine with 16 bit virtual addresses and Pages are 8 KB.
+
+In possble addresses we can calculate when we will power 2 in 16 => 2^16;
+And 8 * 1024 addresses;
+
+To get pages we can divide count of possible addresses by addresses/page => 2^16 / (8 * 1024) = 8 pages;
+
+Answer: 8 entries in single-level linear page table.

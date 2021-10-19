@@ -1,0 +1,51 @@
+maximum resident set size: 82968
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+
+maximum resident set size: 165108
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+
+maximum resident set size: 247212
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+
+maximum resident set size: 329052
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+
+maximum resident set size: 410892
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+
+maximum resident set size: 492996
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+
+maximum resident set size: 574836
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+
+maximum resident set size: 656676
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+
+maximum resident set size: 738780
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+
+maximum resident set size: 820620
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+
+Finish simulation
