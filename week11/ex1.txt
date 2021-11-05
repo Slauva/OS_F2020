@@ -1,0 +1,11 @@
+Discarding device blocks:  1024/61440           done                            
+Creating filesystem with 61440 1k blocks and 15360 inodes
+Filesystem UUID: d4da1b77-9d68-4932-8f9e-890861716282
+Superblock backups stored on blocks: 
+	8193, 24577, 40961, 57345
+
+Allocating group tables: 0/8   done                            
+Writing inode tables: 0/8   done                            
+Creating journal (4096 blocks): done
+Writing superblocks and filesystem accounting information: 0/8   done
+
